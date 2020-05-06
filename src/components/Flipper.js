@@ -2,24 +2,13 @@ import React, {Component} from 'react'
 import FlippingPages from 'flipping-pages'
 /* IMPORTANT */
 import 'flipping-pages/FlippingPages.css'
-import title from './title.jpg'
-import eth from './eth.jpg'
-import capital from './capital.jpg'
-import './App.css'
+import '../App.css'
 import { Button, ButtonGroup } from 'reactstrap';
-import Video from './components/Video'
-import currnecy1 from './currency1.jpg'
-import VideoEth from './components/VideoEth'
-import ButtonPlayer from './components/ButtonPlayer'
-import Flipper from './components/Flipper'
-import FlipperEth from './components/FlipperEth'
-import FlipperCurrency from './components/FlipperCurrency'
+import Video from '../components/Video'
+import ButtonPlayer from '../components/ButtonPlayer'
+import capital from '../capital.jpg'
 
-
-
-
-
-class App extends Component {
+class Flipper extends Component {
 
     constructor(props) {
         super(props)
@@ -61,7 +50,7 @@ class App extends Component {
                     touch-action="none"
                 >
                     <div className="App-page App-page_red">
-                      <img className="image1" src={title} alt="title" />
+                      <img className="image1" src={capital} alt="title" />
                     </div>
                     <div className="App-page App-page_pink">
                       <h6 className="h6">
@@ -104,12 +93,10 @@ class App extends Component {
                     >Next</Button>
                     </ButtonGroup>
                     <h3 className="h7">
-                      Try turning the page by sliding the page diagonally, double click to zoom out
+                      Try turning the page by sliding the page, double click to zoom out
                     </h3>
                   </div>
-                  <FlipperEth />
-                <hr/>
-                <FlipperCurrency />
+                  <hr/>
             </div>
             
         )
@@ -117,4 +104,4 @@ class App extends Component {
 
 }
 
-export default App
+export default Flipper
