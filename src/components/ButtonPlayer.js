@@ -10,7 +10,7 @@ class ButtonPlayer extends Component {
         return (
             <div>
                 
-               <Button color="primary" href="https://barrington-book-club.netlify.app/">Book Club Website</Button>{' '}
+               <Button color="primary" href="https://the-wonderful-book-club.netlify.app/">Book Club Website</Button>{' '}
                <div className="example-container">
                 <br/>
                <Moving/>
