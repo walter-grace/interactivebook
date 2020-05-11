@@ -54,16 +54,16 @@ class Flipper extends Component {
                     </div>
                     <div className="App-page App-page_pink">
                       <h6 className="h6">
- Piketty describes societal systems through the ages — such as slavery, feudalism, colonialism and caste — collectively as “inequality regimes”. 
- No surprises, then, about what he thinks is their key attribute. In each case, he uses historical sources to map the distribution of incomes and wealth and show how the situation today parallels those earlier abhorrent episodes. 
- The obvious implication: if we are not disturbed by what is going on around us, we should be.
+ Piketty goes in-depth about societal systems through the ages.
+In each chapter, Piketty uses history to map the distribution of incomes and wealth and show how the situation today parallels those earlier episodes. 
+ One of his big overall message is we may need to re-think how some of our economic models might be outdated
 
                       </h6>
                     </div>
                     <div className="App-page App-page_pink">
                       <h4 className="h6">
-	Piketty believes tax loopholes can be eliminated today through international agreement and better information. 
-  Yet, if loopholes were rampant then, it undermines his argument that high progressive taxes are consistent with strong growth. 
+	Piketty believes tax loopholes should be eliminated today through international agreement and better information. 
+  He seems to contradicts himself a bit when arguing about higher tax rates increase growth.
   If nobody actually paid those taxes in the glorious years between 1950 and 1979, we never actually ran the high-tax experiment
 
                       </h4>
