@@ -57,7 +57,6 @@ class Flipper extends Component {
  Piketty goes in-depth about societal systems through the ages.
 In each chapter, Piketty uses history to map the distribution of incomes and wealth and show how the situation today parallels those earlier episodes. 
  One of his big overall message is we may need to re-think how some of our economic models might be outdated
-
                       </h6>
                     </div>
                     <div className="App-page App-page_pink">
