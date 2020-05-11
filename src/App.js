@@ -51,50 +51,9 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <FlippingPages
-                    className="App-pages"
-                    direction="horizontal"
-                    selected={this.state.selected}
-                    onSelectedChange={this.handleSelectedChange}
-                    /* touch-action attribute is required by pointer events
-                    polyfill */
-                    touch-action="none"
-                >
-                    <div className="App-page App-page_red">
-                      <img className="image1" src={title} alt="title" />
-                    </div>
-                    <div className="App-page App-page_pink">
-                      <Flipper />
-                    </div>
-                    <div className="App-page App-page_pink">
-                      <Video />
-                    </div>
-                    <div className="App-page App-page_pink">
-                      <h5 className="h7">
-                       Head back to the website
-                      </h5>
-                        <ButtonPlayer />
-                    </div>
-                </FlippingPages>
-
-                {/* Buttons are required for keyboard navigation */}
-                <div>
-                <ButtonGroup className="content">
-                <Button color="primary" size="large"
-                    onClick={this.previous}
-                    disabled={!this.state.selected}
-                    >Previous</Button> 
-                    {'     '}
-                <Button color="primary"
-                    onClick={this.next}
-                    disabled={this.state.selected + 1 === this.totalPages}
-                    >Next</Button>
-                    </ButtonGroup>
-                    <h3 className="h7">
-                      Try turning the page by sliding the page diagonally, double click to zoom out
-                    </h3>
-                  </div>
-                  <FlipperEth />
+                <Flipper/>
+                <hr />
+                <FlipperEth />
                 <hr/>
                 <FlipperCurrency />
             </div>
